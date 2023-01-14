@@ -1,0 +1,3 @@
+CREATE LOGIN MyLogin WITH PASSWORD = '1234';
+CREATE USER Meriç FOR LOGIN MyLogin
+GRANT SELECT ON person.Person to Meriç
